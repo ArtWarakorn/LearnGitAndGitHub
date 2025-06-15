@@ -10,4 +10,11 @@ brith = int(input("What is your Brith years : "))
 
 your_age = 2568 - brith
 
-print(f"Hello : {name} Now your age : {your_age} ")
+#เขียนแบบ f-String
+print(f"Hello : {name} Now your age : {your_age} ") 
+
+if your_age < 18:
+    print("can not pass")
+    
+else: 
+    print("OK")
